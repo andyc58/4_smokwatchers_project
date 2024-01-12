@@ -10,6 +10,7 @@ In this project, we aim to analyze the effect that the Canadian Wildfires had on
 4. [Challenges Experienced](#challenges-experienced)
 5. [Potential Challenges](#potential-challenges)
 6. [Future Use](#future-use)
+7. [Team Contribution](#team-contribution)
 
 ### Acquisition
 In this section, we collect the necessary data for our analysis. We scrape Wikipedia to obtain a list of the most populous US cities, acquire latitude and longitude data through the open-meteo API, and create a DataFrame that links cities and states with their respective IDs and coordinates. We also define functions to fetch all required data from the open-meteo API.
@@ -40,3 +41,9 @@ As this project is focused on the most populous US cities, there are potential c
 
 ## Future Use
 This project is designed to be a starting point for further analysis and development. Feel free to use the code and documentation to expand or modify the project as needed. By using this project, you agree to follow the access rights and terms of service laid out by Wikipedia and Open-Meteo. We encourage you to review their official documentation and guidelines for comprehensive details on data usage and licensing.
+
+## Team Contribution
+Andy Cherney: Data Collection
+Kexin Shang:  Data Cleaning and Structuring
+Abbeer Wani: Data Visualization
+Robert Logovinsky: Project Management and Presentations

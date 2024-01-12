@@ -12,13 +12,13 @@ In this project, we aim to analyze the effect that the Canadian Wildfires had on
 6. [Future Use](#future-use)
 7. [Team Contribution](#team-contribution)
 
-### Acquisition
+## Acquisition
 In this section, we collect the necessary data for our analysis. We scrape Wikipedia to obtain a list of the most populous US cities, acquire latitude and longitude data through the open-meteo API, and create a DataFrame that links cities and states with their respective IDs and coordinates. We also define functions to fetch all required data from the open-meteo API.
 
-### Data Wrangling
+## Data Wrangling
 Here, we clean and prepare the data for analysis. We create two dictionaries, one for daily data and one for monthly data. The DataFrames were made while looping through the data that was pulled from the API, and then each DataFrame was stored under one cityID key. We conduct checks to ensure data completeness and correctness.
 
-### Data Visualization
+## Data Visualization
 In this section, we present visualizations to gain insights into the effect of Canadian wildfires on air quality in US cities:
 
 1. This visualization shows distribution shapes of weather data and air quality for New York City.
@@ -29,7 +29,7 @@ In this section, we present visualizations to gain insights into the effect of C
 6. Chart stacks depicting air quality changes over the year for LA.
 7. Monthly PM2.5 Air Quality Index (AQI) for March through November in Philadelphia.
 
-### Challenges Experienced
+## Challenges Experienced
 During the development of this project, we encountered some challenges:
 - The original data source (open-weather) had more robust and well-formatted data, but it had a rate-limited API, which would have restricted the project's scope.
 - The way open-meteo separates its air quality data makes analysis more challenging.

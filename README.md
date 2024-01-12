@@ -43,7 +43,7 @@ As this project is focused on the most populous US cities, there are potential c
 This project is designed to be a starting point for further analysis and development. Feel free to use the code and documentation to expand or modify the project as needed. By using this project, you agree to follow the access rights and terms of service laid out by Wikipedia and Open-Meteo. We encourage you to review their official documentation and guidelines for comprehensive details on data usage and licensing.
 
 ## Team Contribution
-Andy Cherney: Data Collection
-Kexin Shang:  Data Cleaning and Structuring
-Abbeer Wani: Data Visualization
+Andy Cherney: Data Collection  
+Kexin Shang:  Data Cleaning and Structuring  
+Abbeer Wani: Data Visualization  
 Robert Logovinsky: Project Management and Presentations
